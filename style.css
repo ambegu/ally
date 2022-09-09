@@ -1,0 +1,61 @@
+.body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container{
+    background: coral;
+    height: 100vh;
+}
+.header{
+    width: 1366px;
+    height: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+.header img{
+    height: 75px;
+    position: absolute;
+    left: 20px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    position: absolute;
+    left: 50%;
+}
+.menu li a{
+    text-decoration: none;
+    border: solid 2px coral;
+    padding: 5px 20px;
+    color: coral;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.menu li a:hover{
+    background-color: coral;
+    color: white;
+    font-weight: 600;
+}
+.hero{
+    position: absolute;
+    top: 200px;
+    left: 25%;
+    color: white;
+}
+.hero a{
+    outline: solid 2px white;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+.hero ul{
+    list-style: none;
+}
+h1{
+    font-weight: 300;
+}
